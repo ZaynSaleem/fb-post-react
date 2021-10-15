@@ -1,0 +1,104 @@
+/* .fb-post-card{
+  
+    border: 1px solid lightgray;
+    width: 50%;
+    margin: auto;
+} */
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.card-posting {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(219, 219, 219);
+  margin: auto !important;
+  padding: 15px !important;
+}
+.card-posting-head {
+  display: flex;
+  align-items: center;
+}
+.card-posting-head h6 {
+  margin-bottom: 0;
+  font-size: 15px;
+  text-align: start;
+}
+.card-posting-head p {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-align: start;
+  color: rgb(184, 184, 184);
+}
+.card-posting-text {
+  font-size: 15px;
+  text-align: start;
+}
+.images-box .row {
+  height: 38vh !important;
+  /* width: 50% !important; */
+}
+.images-box .height-one {
+  width: 100%;
+  padding-top: unset !important;
+  background-size: cover !important;
+}
+.images-box .height-two {
+  padding-top: unset !important;
+  background-size: cover !important;
+}
+.card-posting-bottoms {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.reaction-button {
+  display: flex;
+  border-top: 1px solid lightgray;
+}
+.reaction-button button {
+  font-size: 15px;
+  width: 40%;
+  background-color: transparent !important;
+  color: rgb(37, 37, 37);
+  border: 0px;
+  margin-top: 3px;
+}
+.emoji {
+    position: absolute;
+    bottom: 0;
+    margin: 0 !important;
+    border: 0;
+    background: #fff;
+    transition: .5s ease-in-out;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    width: auto;
+    box-shadow: 0px 0px 6px #00000063;
+    border-radius:50px;
+}
+.avatar-emoji {
+  /* vertical-align: middle; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.aaaa:hover{
+    background-color: red !important;
+    /* display: block !important; */
+
+}
+.card-posting {
+    position: relative;
+    overflow: hidden;
+}
+.aaaa:hover .emoji {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-130%);
+}
