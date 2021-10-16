@@ -15,6 +15,8 @@ function App() {
     "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
     "https://media.istockphoto.com/photos/pakistan-monument-islamabad-picture-id535695503?k=20&m=535695503&s=612x612&w=0&h=S16wHXc-b3AkL7YMrcFkR2pDGFJA1bRsPmAfQlfrwkc=",
     "https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg",
+    "https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg",
+    "https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg",
   ];
   
   const [BtnValue, setBtnValue] = useState("")

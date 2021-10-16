@@ -13,8 +13,8 @@
 .card-posting {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(219, 219, 219);
-  margin: auto !important;
-  padding: 15px !important;
+  /* margin: auto !important; */
+  /* padding: 15px !important; */
 }
 .card-posting-head {
   display: flex;
@@ -36,7 +36,7 @@
   text-align: start;
 }
 .images-box .row {
-  height: 38vh !important;
+  height: 30vh !important;
   /* width: 50% !important; */
 }
 .images-box .height-one {
@@ -47,12 +47,20 @@
 .images-box .height-two {
   padding-top: unset !important;
   background-size: cover !important;
+  /* width: 50% !important; */
+  /* height: 32vh !important; */
 }
 .card-posting-bottoms {
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 16px;
+  position: relative;
+  /* margin: auto !important;   */
+  /* display: block; */
+  /* text-align: center; */
 }
+
+
 .reaction-button {
   display: flex;
   border-top: 1px solid lightgray;
@@ -87,10 +95,16 @@
   height: 50px;
   border-radius: 50%;
 }
+.emoji button {
+  outline: none !important;
+  box-shadow: none !important;
+
+}
 
 .aaaa:hover{
-    background-color: red !important;
-    /* display: block !important; */
+    /* background-color: transparent !important; */
+    color: black !important;
+
 
 }
 .card-posting {
@@ -101,4 +115,41 @@
     opacity: 1;
     visibility: visible;
     transform: translateY(-130%);
+}
+
+.avatar-emoji-show{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  border-radius: 50%;
+}
+.avatar-emoji-show-disable{
+  display: none;
+}
+
+.avatar-emoji-react{
+  width: 15px;
+  height: 15px;
+  /* margin: auto; */
+  border-radius: 50%;
+}
+@media(max-width:862px){
+  .card-posting-bottoms {
+    /* display: flex; */
+    margin: 0;
+    /* align-items: center; */
+    font-size: 11px;
+    /* position: relative; */
+    /* margin: auto !important; */
+    /* display: block; */
+    /* text-align: center; */
+  }
+}
+@media(max-width:767px){
+ 
+  .images-box .height-one {
+    width: 100%;
+    padding-top: unset !important;
+    background-size: cover !important;
+  }
 }
